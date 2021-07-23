@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Informações</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="main">
+            <div class="info">
+                <img src="/img/marca.png" alt="">
+                <img src="/img/título.png" alt="">
+                <img src="/img/texto.png" alt="">
+                <img src="/img/subtexto.png" alt="">
+                <img src="/img/futuros alunos.png" alt="">
+            </div>
+            <div class="form">
+                <div class="col-12">
+                    <div class="alert alert-warning" role="alert">
+                        <strong>Atenção</strong>: Origem não identificada, esse formulário foi desativado. Você deve informar uma origem válida, Obrigado!
+                    </div>
+                    <form action="controller.php?origin=http://www.colegiodamas.com.br" method="POST" class="row g-3 needs-validation" novalidate="">
+                        <input type="hidden" id="origin" name="origin" value="http://www.colegiodamas.com.br">
+                        <input type="hidden" id="92aa4b5ce810962a37d56787bc724c87" name="92aa4b5ce810962a37d56787bc724c87" value="<">
+                        <input type="hidden" id="c360a9ffa31899f6e313874bd64dff10" name="7737333cb62e2e92f2d8230aa74d357f" value="<">
+                        <input type="hidden" id="8d5a03d50df4cc7981635873a6ff20cc" name="c25781e103c6273785fe3539593ee06f" value="<">
+                        <input type="hidden" id="629a04f9aec4a0b5cf242525235f7a3b" name="1fbb8d7d94e51682bba2d6d5a602518b" value="<">
+                        <input type="hidden" id="eb3c6d7524276193ec923c176cbace6d" name="eb3c6d7524276193ec923c176cbace6d" value="0">
+                        <div class="form-group col-sm-12 col-md-6">
+                            <label for="ipt-nome" class="form-label">Nome*</label>
+                            <input type="text" class="form-control bg-light" id="ipt-nome" name="ipt-nome" required="" disabled="">
+                            <div class="invalid-feedback">
+                                Você deve informar seu NOME COMPLETO.
+                            </div>
+                        </div>
+                        <div class="form-group col-sm-12 col-md-6">
+                            <label for="ipt-cpf" class="form-label">CPF*</label>
+                            <input type="text" class="form-control bg-light" id="ipt-cpf" name="ipt-cpf" required="" disabled="" maxlength="14">
+                            <div class="invalid-feedback">
+                                Você deve informar um CPF válido.
+                            </div>
+                        </div>
+                        <div class="form-group col-sm-12 col-md-6">
+                            <label for="ipt-celular" class="form-label">Celular*</label>
+                            <input type="text" class="form-control bg-light" id="ipt-celular" name="ipt-celular" required="" disabled="" maxlength="15">
+                            <div class="invalid-feedback">
+                                Você deve informar seu CELULAR.
+                            </div>
+                        </div>
+                        <div class="form-group col-sm-12 col-md-6">
+                            <label for="ipt-email" class="form-label ">E-mail*</label>
+                            <input type="email" class="form-control bg-light" id="ipt-email" name="ipt-email" required="" disabled="">
+                            <div class="invalid-feedback">
+                                Você deve informar seu E-MAIL.
+                            </div>
+                        </div>
+                        <div class="form-group col-sm-12 col-md-6">
+                            <label for="ipt-nome-aluno" class="form-label">Nome do Aluno*</label>
+                            <input type="text" class="form-control bg-light" id="ipt-nome-aluno" name="ipt-nome-aluno" required="" disabled="">
+                            <div class="invalid-feedback">
+                                Você deve informar o NOME DO ALUNO COMPLETO.
+                            </div>
+                        </div>
+                        <div class="form-group col-sm-12 col-md-6">
+                            <label for="slc-serie-pretendida" class="form-label">Série Pretendida*</label>
+                            <select class="form-control bg-light" id="slc-serie-pretendida" name="slc-serie-pretendida" required="" disabled="">
+                                <option value="" selected="">Selecione</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Você deve informar a SÉRIE DO ALUNO.
+                            </div>
+                        </div>
+                        <!-- 
+                  <div class="col-sm-12 col-md-3">
+                    <label for="slc-ano-pretendido" class="form-label">Ano Pretendido*</label>
+                    <select class="form-select bg-light" id="slc-ano-pretendido" name="slc-ano-pretendido" required disabled>
+                              </select>
+                    <div class="invalid-feedback">
+                      Você deve informar o ANO.
+                    </div>
+                  </div>
+                  -->
+                        <div class="form-group col-sm-12">
+                            <label for="ipt-mensagem" class="form-label">Mensagem*</label>
+                            <textarea class="form-control bg-light" id="ipt-mensagem" name="ipt-mensagem" rows="3" required=""></textarea>
+                            <div class="invalid-feedback">
+                                Você deve informar uma MENSAGEM/MOTIVO desse contato conosco.
+                            </div>
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <button type="submit" class="btn btn-primary btn-lg btn-block" disabled="">ENVIAR</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <img src="/img/faixa laranja_4.png" alt="" width="100%" height="50px">
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
