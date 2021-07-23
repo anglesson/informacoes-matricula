@@ -77,4 +77,7 @@ footer img {
     .form {
         margin-top: 3rem;
     }
+    .info img {
+        min-width: 100%;
+    }
 }
